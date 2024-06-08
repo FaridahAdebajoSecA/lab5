@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>My Music Website</title>
+    <body>
+    <header>
+        <nav>
+            <h1>Music World</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="genres.html">Genres</a></li>
+                <li><a href="artists.html">Artists</a></li>
+                <li><a href="instruments.html">Instruments</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            height: 280vh;
+            box-sizing: border-box;
+        }
+        .sidebar h2, .sidebar p {
+            margin: 0 0 20px 0;
+        }
+        .main-content {
+            flex-grow: 1;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .popular-artists {
+            display: flex;
+            overflow-x: auto;
+        }
+        .artist {
+            text-align: center;
+            margin-right: 50px;
+        }
+        .artist img {
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h3>Your Library</h3>
+        <p>Create your first playlist</p>
+        <button>Create Playlist</button>
+        <p>Legal</p>
+        <p>Safety & Privacy Center</p>
+        <p>Privacy Policy</p>
+        <p>Cookies</p>
+        <p>About Ads</p>
+        <p>Accessibility</p>
+    </div>
+    <div class="main-content">
+        <h2>Popular artists</h2>
+        <div class="popular-artists">
+            <div class="artist">
+                <img src="https://i.pinimg.com/736x/2f/3c/62/2f3c62043889e8c91397c554eeb358c8.jpg" alt="Chase Atlantic">
+                <p>Chase Atlantic</p>
+            </div>
+            <div class="artist">
+                <img src="https://i.scdn.co/image/ab6761610000517491d28ed74ef3451d30ffab6a" alt="Stray kids">
+                <p>stray kids</p>
+            </div>
+            <div class="artist">
+                <img src="https://image.static.bstage.in/cdn-cgi/image/metadata=none,dpr=2,f=auto,width=1080/ateez/2ed3bade-b761-481c-be5d-cf151f73e936/3d3be89c-2641-4fda-920f-cea8237a5970/ori.jpg" alt="Ateez">
+                <p>Ateez</p>
+            </div>
+            <div class="artist">
+                <img src="https://i.scdn.co/image/ab67616d0000b2739b6ac98a52f62d5cb473da40" alt="The Neighbourhood">
+                <p>The Neighbourhood</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <h4>Company</h4>
+            <ul>
+                <li>About</li>
+                <li>Jobs</li>
+                <li>For the Record</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Communities</h4>
+            <ul>
+                <li>For Artists</li>
+                <li>Developers</li>
+                <li>Advertising</li>
+                <li>Investors</li>
+                <li>Vendors</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Useful links</h4>
+            <ul>
+                <li>Support</li>
+                <li>Free Mobile App</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+</body>
+</html>
